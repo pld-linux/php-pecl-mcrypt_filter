@@ -2,7 +2,7 @@
 %define		_status		beta
 
 Summary:	%{_modname} - applies mcrypt symmetric encryption using stream filters
-Summary(pl):	%{_modname} - aplikuje symetryczne szyfrowanie za pomoc± filtrów strumieni
+Summary(pl):	%{_modname} - symetryczne szyfrowanie za pomoc± filtrów strumieni
 Name:		php-pecl-%{_modname}
 Version:	0.1.0
 Release:	1
@@ -10,7 +10,7 @@ License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	f0648aa92b518bfacc0c0be9e86d6bc9
-URL:		http://pecl.php.net/package/Modname/
+URL:		http://pecl.php.net/package/mcrypt_filter/
 BuildRequires:	libtool
 BuildRequires:	php-devel >= 3:5.0.0
 Requires:	php-common >= 3:5.0.0
@@ -27,8 +27,8 @@ encryption and decryption.
 In PECL status of this extension is: %{_status}.
 
 %description -l pl
-Tworzy klasy filtrów mcrypt.* i mdecrypt.* dla symetrycznego szyfrowania
-i deszyfrowania strumieni.
+To rozszerzenie tworzy klasy filtrów mcrypt.* i mdecrypt.* do
+symetrycznego szyfrowania i odszyfrowywania strumieni.
 
 To rozszerzenie ma w PECL status: %{_status}.
 

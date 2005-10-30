@@ -6,7 +6,7 @@ Summary:	%{_modname} - applies mcrypt symmetric encryption using stream filters
 Summary(pl):	%{_modname} - symetryczne szyfrowanie za pomoc± filtrów strumieni
 Name:		php-pecl-%{_modname}
 Version:	0.1.0
-Release:	3
+Release:	4
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz

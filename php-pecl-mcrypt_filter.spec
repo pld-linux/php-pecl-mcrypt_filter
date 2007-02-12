@@ -1,7 +1,7 @@
 %define		_modname	mcrypt_filter
 %define		_status		beta
 Summary:	%{_modname} - applies mcrypt symmetric encryption using stream filters
-Summary(pl.UTF-8):   %{_modname} - symetryczne szyfrowanie za pomocą filtrów strumieni
+Summary(pl.UTF-8):	%{_modname} - symetryczne szyfrowanie za pomocą filtrów strumieni
 Name:		php-pecl-%{_modname}
 Version:	0.1.0
 Release:	6
